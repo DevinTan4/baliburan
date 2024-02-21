@@ -1,0 +1,58 @@
+<!DOCTYPE html> <!-- Untuk mendeklarasikan tipe dokumen yaitu HTML -->
+<html lang="en"> <!-- Untuk memulai dokumen HTML dalam bahasa Inggris -->
+<head> <!-- Untuk membuat bagian head -->
+    <meta charset="UTF-8"> <!-- Untuk menerjemahkan karakter di dalam HTML sebagai UTF-8. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Menginstruksikan agar dokumen HTML yang dibuat ditampilkan pada Internet 
+        Explorer versi terbaru -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Untuk menampilkan lebar dokumen HTML mengikuti lebar 
+        layar perangkatnya, digunakan untuk mengatur tingkat pembesaran (zooming) awal-->
+    <link rel="stylesheet" href="style.css"> <!-- Menghubungkan dokumen html dengan dokumen css-->
+</head> <!-- Untuk menutup bagian head -->
+<body id="destination"> <!-- Untuk membuat bagian body dengan id destination-->
+    <p id="pagename" class="pagenamedest">D E S T I N A T I O N</p> <!-- Membuat sebuah paragraf dengan id pagename dan kelas pagenameabout 
+        yang berisi teks "D E S T I N A T I O N"-->
+    <p class="destdesc">Destinasi wisata apa yang kamu cari di Bali?</p> <!-- Membuat sebuah paragraf dengan kelas destcdesc-->
+    <p class="click">*Klik gambar untuk baca lebih lanjut</p> <!-- Membuat sebuah paragraf dengan kelas click-->
+    <div class="destslider"> <!-- Membuat sebuah grup dengan kelas destslider-->
+        <input type="radio" id="dest1" name="images" checked/> <!-- Membuat kolom isian dari user berupa tombol pilihan yang diisi dengan 
+            cara memilih salah satu tombol radio yang ada dengan id dest1 dan nama images. Atribut checked berfungsi untuk memberi tanda-->
+        <input type="radio" id="dest2" name="images"/> <!-- Membuat kolom isian dari user berupa tombol pilihan yang diisi dengan 
+            cara memilih salah satu tombol radio yang ada dengan id dest2 dan nama images-->
+        <input type="radio" id="dest3" name="images"/> <!-- Membuat kolom isian dari user berupa tombol pilihan yang diisi dengan 
+            cara memilih salah satu tombol radio yang ada dengan id dest3 dan nama images-->
+        <input type="radio" id="dest4" name="images"/> <!-- Membuat kolom isian dari user berupa tombol pilihan yang diisi dengan 
+            cara memilih salah satu tombol radio yang ada dengan id dest4 dan nama images-->
+        <div class="slide_img" id="one"> <!-- Membuat sebuah grup dengan kelas slide_img dan id one-->				
+                <a href="pantai.html" target="home"><img class="img" src="image/dest1.jpg"></a>
+                <!-- Tag <a> untuk membuat link dengan tujuan pantai.html dan membukanya pada halaman home (halaman konten)-->
+                <!-- Tag <img> untuk menampilkan gambar dengan kelas img yang bernama dest1.jpg dari folder image-->
+        </div> <!-- Menutup grup-->
+        <div class="slide_img" id="two"> <!-- Membuat sebuah grup dengan kelas slide_img dan id two-->
+                <a href="kuliner.html" target="home"><img class="img" src="image/dest2.jpg"></a>
+                <!-- Tag <a> untuk membuat link dengan tujuan kuliner.html dan membukanya pada halaman home (halaman konten)-->
+                <!-- Tag <img> untuk menampilkan gambar dengan kelas img yang bernama dest2.jpg dari folder image-->
+        </div> <!-- Menutup grup-->
+        <div class="slide_img" id="three"> <!-- Membuat sebuah grup dengan kelas slide_img dan id three-->
+                <a href="aktivitas.html" target="home"><img class="img" src="image/dest3.jpg"></a>
+                <!-- Tag <a> untuk membuat link dengan tujuan aktivitas.html dan membukanya pada halaman home (halaman konten)-->
+                <!-- Tag <img> untuk menampilkan gambar dengan kelas img yang bernama dest3.jpg dari folder image-->
+        </div> <!-- Menutup grup-->
+        <div class="slide_img" id="four"> <!-- Membuat sebuah grup dengan kelas slide_img dan id four-->
+                <a href="tempatrekreasi.html" target="home"><img class="img" src="image/dest4.jpg"></a>
+                <!-- Tag <a> untuk membuat link dengan tujuan tempatrekreasi.html dan membukanya pada halaman home (halaman konten)-->
+                <!-- Tag <img> untuk menampilkan gambar dengan kelas img yang bernama dest4.jpg dari folder image-->
+        </div> <!-- Menutup grup-->
+    
+        <div id="nav_slide"> <!-- Membuat sebuah grup dengan id nav_slide-->
+            <label for="dest1" class="dots" id="dot1"></label> <!-- Untuk memberi label pada elemen input dest1 dengan kelas dots dan
+            id dot1-->
+            <label for="dest2" class="dots" id="dot2"></label> <!-- Untuk memberi label pada elemen input dest2 dengan kelas dots dan
+                id dot2-->
+            <label for="dest3" class="dots" id="dot3"></label> <!-- Untuk memberi label pada elemen input dest3 dengan kelas dots dan
+                id dot3-->
+            <label for="dest4" class="dots" id="dot4"></label> <!-- Untuk memberi label pada elemen input dest4 dengan kelas dots dan
+                id dot4-->
+        </div> <!-- Menutup grup-->
+    </div> <!-- Menutup grup-->
+</body> <!-- Untuk menutup bagian body-->
+</html> <!-- Untuk menutup dokumen HTML-->

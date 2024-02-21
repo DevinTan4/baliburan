@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+    <meta charset="UTF-8"> <!-- Untuk menerjemahkan karakter di dalam HTML sebagai UTF-8. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Menginstruksikan agar dokumen HTML yang dibuat ditampilkan pada Internet 
+        Explorer versi terbaru -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Untuk menampilkan lebar dokumen HTML mengikuti lebar 
+        layar perangkatnya, digunakan untuk mengatur tingkat pembesaran (zooming) awal-->
+    <title>Baliburan</title> <!-- Memberi judul halaman web-->
+    <link rel="stylesheet" href="style.css"> <!-- Menghubungkan dokumen html dengan dokumen css-->
+</head> <!-- Untuk menutup bagian head -->
+    <frameset rows="10%,*,5%" frameborder="no" framespacing="0"> <!-- Membagi layar secara horizontal/baris dengan proporsi 2:17:1
+    tanpa menggunakan border dan tanpa jarak-->
+        <frame name="header" src="header.html" scrolling="no" noresize="noresize"> <!-- Membuat jendela/frame baru dengan nama header
+        dan menghubungkannya dengan halaman header. Scrollbar tidak ditampilkan dan ukuran tidak bisa diubah-->
+        <frameset cols="80%,20%"> <!-- Membagi layar secara vertikal/kolom dengan proporsi 4:1-->
+            <frame name="home" src="home.html" scrolling="auto"> <!-- Membuat jendela/frame baru dengan nama home dan menghubungkannya 
+                dengan halaman home. Scrollbar ditampilkan jika ukuran konten melebihi frame-->
+            <frame name="sidebar" src="sidebar.html"> <!-- Membuat jendela/frame baru dengan nama sidebar dan menghubungkannya 
+                dengan halaman sidebar-->
+        </frameset> <!-- Menutup tag frameset-->
+        <frame src="footer.html" name="footer" scrolling="no"> <!-- Membuat jendela/frame baru dengan nama footer dan menghubungkannya 
+            dengan halaman footer. Scrollbar tidak ditampilkan-->
+        <noframes> <!--Mendefinisikan browser yang tidak mendukung penggunaan frame-->
+            <body> <!-- Untuk membuat bagian body -->
+                 Maaf, browser Anda tidak mendukung penggunaan frame.
+            </body> <!-- Untuk menutup bagian body -->
+        </noframes> <!-- Menutup tag noframes-->
+    </frameset> <!-- Menutup tag frameset-->
+</html> <!-- Untuk menutup dokumen HTML-->

@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Cabin&family=Montserrat&family=Righteous&family=Pacifico&display=swap');
+/* Untuk mengimpor font dari google sehingga nantinya bisa digunakan di css */
+
+body, html { /* Tag yang akan diberi style */
+    margin: 0; /* Menghilangkan ruang di sekitar elemen di luar batas yang ditentukan */
+    padding: 0; /* Menghilangkan ruang di sekitar elemen di dalam batas yang ditentukan */
+    font-family: 'Montserrat', sans-serif; /* Mengubah font menjadi Montserrat yaitu jenis sans-serif */
+}
+a { /* Tag yang akan diberi style */
+    text-decoration: none; /* Menghapus unsur dekorasi teks yaitu garis bawah */
+    color: black; /* Memberi warna hitam pada teks */
+}
+
+#header { /* ID yang akan diberi style */
+    background-color: #dbc2ab; /* Mengubah warna background */
+}
+
+#header h1 { /* Tag yang akan diberi style pada id header */
+    position: static; /* Memposisikan secara statis sehingga tidak terpengaruh oleh properti di sekitarnya */
+    padding-top: 0.7%; /* Mengatur ruang di atas elemen di dalam batas yang ditentukan sebesar 0,7%*/
+    float: left; /* Memposisikan elemen berada di kiri halaman */
+    margin-top: 1px; /* Mengatur ruang di atas elemen di luar batas yang ditentukan sebesar 1px */
+    color: black; /* Memberi warna hitam pada teks */
+    font-family: 'Righteous', cursive; /* Mengubah font menjadi Righteous yaitu jenis cursive */
+    letter-spacing: 5px; /* Mengatur jarak antar huruf sebesar 5px */
+    text-transform: uppercase; /* Mengubah seluruh teks menjadi kapital */
+}
+
+.navbar ul { /* Tag yang akan diberi style pada kelas navbar */
+    float: right; /* Memposisikan elemen berada di kanan halaman */
+    padding: 1.5%; /* Mengatur ruang di sekitar elemen di dalam batas yang ditentukan sebesar 1.5% */
+    margin: 0; /* Menghilangkan ruang di sekitar elemen di luar batas yang ditentukan */
+    text-align: center; /* Memposisikan teks di tengah */
+}
+
+.navbar li { /* Tag yang akan diberi style pada kelas navbar */
+    font-size: 18px; /* Mengubah ukuran font menjadi 18px */
+    display: inline-block; /* Mengubah tampilan teks menjadi blok sebaris */
+    padding-left: 15px; /* Mengatur ruang di sebelah kiri elemen di dalam batas yang ditentukan sebesar 15px */
+    padding-right: 30px; /* Mengatur ruang di sebelah kanan elemen di dalam batas yang ditentukan sebesar 30px */
+    font-weight: bold; /* Mengubah teks menjadi tebal */
+    letter-spacing: 2px; /* Mengatur jarak antar huruf sebesar 2px */
+}
+
+#header img { /* Tag yang akan diberi style pada id header */
+    position: static; /* Memposisikan secara statis sehingga tidak terpengaruh oleh properti di sekitarnya */
+    float: left; /* Memposisikan elemen berada di kiri halaman */
+    width: 40px; /* Mengatur lebar gambar sebesar 40px */
+    height: 40px; /* Mengatur tinggi gambar sebesar 40x */
+    padding: 0.7%; /* Mengatur ruang di sekitar elemen di dalam batas yang ditentukan sebesar 0.7% */
+}
+
+#header span { /* Tag yang akan diberi style pada id header */
+    color: #028910; /* Memberi warna pada teks */
+}
+
+#home {
+    background-image: url("image/bgimagehome.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: white;
+    line-height: 1.5px;
+    padding-left: 3%;
+    padding-top: 0.1%;
+}
+
+#footer {
+    background-color: #dbc2ab;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 0.1rem;
+    text-align: center;
+    font-size: 13px;
+}
+
+#sidebar { /* id yang akan diberi style */
+    background-color: #e9dacd; /* Mengubah warna background */
+}
+
+.heart { /* Kelas yang akan diberi style */
+    color: red; /* Memberi warna pada teks */
+}
+
+.deschome { /* Kelas yang akan diberi style */
+    line-height: 125%; /* Mengatur jarak antar paragraf sebesar 125% */
+    text-align: left; /* Mengatur paragraf menjadi rata kiri */
+    font-size: 13.5px; /* Mengubah ukuran font menjadi 13.5px*/
+    width: 40%; /* Mengatur lebar gambar sebesar 40% */
+}
+
+.berita { /* Kelas yang akan diberi style */
+    font-size: 15px; /* Mengubah ukuran font menjadi 15px */
+}
+
+.beritaimg { /* Kelas yang akan diberi style */
+    width: 230px; /* Mengatur lebar gambar sebesar 230px */
+    height: 150px; /* Mengatur tinggi gambar sebesar 150px */
+    padding-left: 2%; /* Mengatur ruang di sebelah kiri elemen di dalam batas yang ditentukan sebesar 2% */
+    padding-top: 2%; /* Mengatur ruang di atas elemen di dalam batas yang ditentukan sebesar 2% */
+}
+
+.beritajudul {
+    position: static;
+    display: inline-block;
+    padding: 2%;
+}
+
+.readmore {
+    color: tomato;
+}
+
+#sidebar {
+    line-height: 1.15;
+}
+
+.sbjudul {
+    line-height: 0;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 15px;
+    position: fixed;
+    background-color: #e9dacd;
+    margin-top: 0;
+}
+
+#pagename {
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.pagenamehome {
+    margin: 2%;
+}
+
+.pagenamedest {
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+
+.destdesc {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin: 0.5%;
+}
+
+.welcome {
+    font-size: 35px;
+    font-family: 'Dongle', sans-serif;
+}
+.julukan {
+    font-family: 'Pacifico', cursive;
+    font-size: 90px;
+    line-height: 4px;
+}
+
+.button {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    line-height: 10px;
+    margin-top: 0.25%;
+    cursor: pointer;
+}
+  
+.button:hover {
+    background-color: #dbc2ab;
+    color: black;
+}
+
+#destination {
+    background-color: #e9dacd;
+	overflow-X: hidden;
+}
+
+.destslider {
+	user-select: none;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+	display: none;
+}
+
+.slide_img {
+	position: absolute;
+	z-index: -1;
+}
+.img {
+	width: 750px;
+	height: 425px;
+    border-radius: 2em;
+    box-shadow: 0 0 5px #be9b7a;
+}
+
+.click {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    z-index: 10;
+    color: black;
+    left: 15%;
+    bottom: 1%;
+    font-size: 12px;
+    box-shadow: 0 0 10px black;
+    border-radius: 1em;
+    padding: 5px 5px;
+    background-color: #e9dacd;
+}
+
+#nav_slide {
+	width: 100%;
+	bottom: 6.25%;
+	height: 11px;
+	position: absolute;
+	text-align: center;
+	z-index: 9;
+	cursor: default;
+}
+
+.dots {
+	top: -5px;
+	width: 18px;
+	height: 18px;
+    margin: 0 15px;
+	display: inline-block;
+	background-color: white;
+	cursor: pointer;
+    border: 4px solid #be9b7a;
+    border-radius: 15px;
+}
+		
+#dot1:hover {background: #e9dacd;}
+#dot2:hover {background: #e9dacd;}
+#dot3:hover {background: #e9dacd;}
+#dot4:hover {background: #e9dacd;}
+
+#dest1:checked ~ #one,
+#dest2:checked ~ #two,
+#dest3:checked ~ #three,
+#dest4:checked ~ #four {
+	z-index: 9;
+}
+
+#dest1:checked ~ #nav_slide #dot1 {background: #e9dacd;}
+#dest2:checked ~ #nav_slide #dot2 {background: #e9dacd;}
+#dest3:checked ~ #nav_slide #dot3 {background: #e9dacd;}
+#dest4:checked ~ #nav_slide #dot4 {background: #e9dacd;}
+
+#about {
+    background-color: #e9dacd;
+}
+
+.pagenameabout {
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+
+.judulabout {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.descabout {
+    text-align: justify;
+    padding-left: 4%;
+    padding-right: 4%;
+    line-height: 1.3em;
+}
+
+.quote {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+summary {
+    cursor: pointer;
+}
+
+#pantai, #kuliner, #aktivitas, #tempatrekreasi {
+    background-color: #e9dacd;
+}
+
+.descpantai, .desckuliner, .descaktivitas, .descrekreasi {
+    padding: 4%;
+}
+
+.pagenamepantai, .pagenamekuliner, .pagenameaktivitas, .pagenamerekreasi {
+    margin-top: 3%;
+    margin-bottom: 0;
+}
+
+summary {
+    padding: 1%;
+    background: #dbc2ab;
+    border: 3px solid #e9dacd;
+    border-radius: 20px;
+    padding-left: 2%; 
+}
+
+.descpantai p, .desckuliner p, .descaktivitas p, .descrekreasi p {
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: justify;
+    line-height: 1.22rem;
+}
+
+.descpantai img, .desckuliner img, .descaktivitas img, .descrekreasi img {
+    width: 240px;
+    height: 150px;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+
+#pantai span, #kuliner span, #aktivitas span, #tempatrekreasi span {
+    color: yellow;
+    font-size: 18px;
+}
+
+.judulcontactus {
+    text-align: left;
+    font-size: 18px;
+    padding-left: 4%;
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+.logocontact {
+    padding-left: 4%;
+    width: 30px;
+    height: 30px;
+}
+
+.logocontact {
+    float: left;
+}
+
+.namalogo {
+    margin-left: 8%;
+    padding-top: 0.5%;
+}
